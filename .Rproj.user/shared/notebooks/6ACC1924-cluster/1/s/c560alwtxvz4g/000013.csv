@@ -1,0 +1,10 @@
+"0","data=read_tsv(here('data/marketing_campaign.csv'))"
+"2","[1mRows: [22m[34m2240[39m [1mColumns: [22m[34m29[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m───────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m ""\t""
+[31mchr[39m  (3): Education, Marital_Status, Dt_Customer
+[32mdbl[39m (26): ID, Year_Birth, Income, Kidhome, Teenhome, Recency, MntWines, MntFruits, MntM..."
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","DT::datatable(data, options = list(searching = FALSE,pageLength = 5,lengthMenu = c(5, 10, 15, 20), scrollX = T))"
